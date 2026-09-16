@@ -1,0 +1,31 @@
+id,type,description
+1,formatting,Avoid single-character variable names — they hurt readability
+2,performance,Cache repeated database lookups inside the request loop
+3,security,Never interpolate raw user input directly into SQL queries
+4,security,Use parameterized prepared statements for all database query executions
+5,performance,Avoid N+1 queries by batching related entities or using eager loading
+6,security,Sanitize user input before rendering into HTML or DOM innerHTML
+7,architecture,Decouple business domain logic from HTTP controller request handlers
+8,correctness,Always handle error return values rather than discarding them with blank identifiers
+9,performance,Release database connections and file descriptors in finally blocks or defer statements
+10,security,Do not use eval or dynamic code execution on untrusted strings
+11,maintainability,Avoid using unsafe any types in TypeScript interfaces and function signatures
+12,correctness,Avoid mutable default arguments in Python function definitions
+13,performance,Do not use explicit System.gc invocations in high-throughput JVM services
+14,security,Avoid format string vulnerabilities by passing explicit format specifiers to printf
+15,architecture,Prevent cyclic dependencies between event handlers and singleton service modules
+16,security,Verify idempotency keys on payment and transactional webhook retry requests
+17,correctness,Use strict equality comparisons instead of loose type-coercing equality
+18,performance,Avoid leading wildcards in SQL LIKE clauses to preserve B-Tree index scans
+19,security,Never store plaintext passwords — always use salted bcrypt or argon2 hashes
+20,maintainability,Replace deep nested callback cascades with async/await and structured error handling
+21,architecture,Adhere to single responsibility principle — split monolithic functions exceeding 50 lines
+22,security,Validate and verify JWT signature, issuer, and expiration on every protected API call
+23,performance,Avoid unbounded in-memory array cloning inside high-frequency loops
+24,security,Set HTTP-only, secure, and sameSite flags on all authentication session cookies
+25,correctness,Catch specific exception classes rather than using broad or empty catch blocks
+26,performance,Use connection pooling for relational databases to avoid per-request handshake latency
+27,maintainability,Define explicit interface contracts for cross-module payload data transfers
+28,security,Enforce rate limiting on public authentication and password reset endpoints
+29,correctness,Protect shared mutable state across concurrent goroutines using mutexes or channels
+30,performance,Use stream or iterator processing for large datasets to avoid out-of-memory heap exhaustion
